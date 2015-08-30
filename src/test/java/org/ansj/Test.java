@@ -11,7 +11,7 @@ import org.nlpcn.commons.lang.tire.library.Library;
 
 public class Test {
 	public static void main(String[] args) throws Exception {
-
+        
 		// 构造一个用户词典
 		Forest forest = Library.makeForest("library/default.dic");
 		forest = new Forest();
